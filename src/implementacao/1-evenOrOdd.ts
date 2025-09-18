@@ -1,4 +1,9 @@
 export function evenOrOdd(jogada1: number, jogada2: number): string {
-  
-  return null;
+  const soma = jogada1 + jogada2;
+  if (soma % 2 === 0) {
+    return "par";
+  } else {
+    return "ímpar";
+  }
 }
+  
